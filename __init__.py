@@ -11,8 +11,8 @@ import typing
 from dataclasses import dataclass, field
 from decouple import config
 from typing import Any, List, Mapping, Union, Any
-from st_aggrid.grid_options_builder import GridOptionsBuilder
-from st_aggrid.shared import GridUpdateMode, DataReturnMode, JsCode, walk_gridOptions, ColumnsAutoSizeMode, AgGridTheme, ExcelExportMode
+from st_aggrid_bmoc.grid_options_builder import GridOptionsBuilder
+from st_aggrid_bmoc.shared import GridUpdateMode, DataReturnMode, JsCode, walk_gridOptions, ColumnsAutoSizeMode, AgGridTheme, ExcelExportMode
 @dataclass
 class AgGridReturn(Mapping):
     """Class to hold AgGrid call return"""
