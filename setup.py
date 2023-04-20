@@ -25,7 +25,7 @@ import setuptools
 
 setuptools.setup(
                  name = 'st_aggrid_bmoc'
-                 , version = '0.0.5'
+                 , version = '0.0.6'
                  , author = 'Raymond Carlson'
                  , author_email = 'raymondac@buildingmoc.com'
                  , description = 'Various Tools for use with BMOC Data'
@@ -43,6 +43,6 @@ setuptools.setup(
                                  ] #See https://pypi.org/classifiers/
                  , license = 'proprietary'
                  , python_requires = '>=3.7'
-                 , package_data={'': ['.env', '.prettierrc', '*.css', '*.html', '*.js', '*.json', '*.map', '*.txt', '*.woff', '*.woff2']}
+                 , package_data={'': ['.env', '.prettierrc', '*.css', '*.html', '*.js', '*.json', 'bootstrap.min.css.map', '*.txt', '*.woff', '*.woff2']}
                  , include_package_data=True
                  )
