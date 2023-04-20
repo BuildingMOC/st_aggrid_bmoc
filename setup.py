@@ -25,7 +25,7 @@ import setuptools
 
 setuptools.setup(
                  name = 'st_aggrid_bmoc'
-                 , version = '0.0.4'
+                 , version = '0.0.5'
                  , author = 'Raymond Carlson'
                  , author_email = 'raymondac@buildingmoc.com'
                  , description = 'Various Tools for use with BMOC Data'
