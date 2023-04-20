@@ -24,7 +24,7 @@ import setuptools
 ## https://setuptools.readthedocs.io/en/latest/setuptools.html
 
 setuptools.setup(
-                 name = 'st-aggrid-bmoc'
+                 name = 'st_aggrid_bmoc'
                  , version = '0.0.1'
                  , author = 'Raymond Carlson'
                  , author_email = 'raymondac@buildingmoc.com'
